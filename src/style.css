@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-size: larger;
+    text-align: center;
+    color: #44154e;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: fit-content;
+    width:fit-content;
+}
+.card {
+    background-color: #be9ac6;
+    height: 400px;
+    width: 290px;
+    border-radius: 30px;
+}
+
+.employee {
+    background-color: rgb(109, 210, 176);
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inside {
+    background-color: rgb(109, 210, 176);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.info {
+    height: 150px;
+}
+.info ol {
+    text-decoration: wavy;
+}
